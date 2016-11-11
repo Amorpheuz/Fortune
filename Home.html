@@ -21,8 +21,8 @@
     <link href="assets/css/material-kit.css" rel="stylesheet"/>
 	<style>
 		.header{
-			height: 1000px;
-			padding-top:350px;
+			height: 550px;
+			padding-top:15%;
 		}
 		.asize{
 			font-size: 500%;
@@ -30,6 +30,11 @@
 		body{
 			background-color: #fff9e6;
 			overflow-x: hidden;
+		}
+		.hshad{
+			opacity: 0.75;
+			color:#ffffff;
+			text-shadow: 3px 3px #000000;
 		}
 		.card {
 		/* Add shadows to create the "card" effect */
@@ -42,6 +47,20 @@
 		/* On mouse-over, add a deeper shadow */
 		.card:hover {
 				box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		}
+
+		.parallax {
+		    /* The image used */
+		    background-image: url('background1.jpg');
+
+		    /* Full height */
+		    height: 100%;
+
+		    /* Create the parallax scrolling effect */
+		    background-attachment: fixed;
+		    background-position: center;
+		    background-repeat: no-repeat;
+		    background-size: cover;
 		}
 	</style>
 </head>
@@ -113,24 +132,24 @@
 <!-- end navbar -->
 
 </div>
-<div class="wrapper">
-	<div class="header" style="background-image: url('https://images2.alphacoders.com/734/thumb-1920-734981.jpg');">
+<div class="wrapper parallax">
+	<div class="header">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<div class="Brand">
-					<h1 class="text-center asize" style="font-family: 'Gravitas One', cursive;">
-					<font color="#ffffff">
-						FORTUNE
-					</font>
-					</h1>
+						<h1 class="text-center asize hshad" style="font-family: 'Gravitas One', cursive;">
+			
+							FORTUNE
+						
+						</h1>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	
-	<div class="main-raised">
+	<div class="main-transparent">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -314,16 +333,15 @@
 		s0.parentNode.insertBefore(s1,s0);
 	})();
 	</script>
-<!--End of Tawk.to Script-->
-<!--Facebook Script-->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=1245965302120622";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
+	<!--End of Tawk.to Script-->
+		<!--Facebook Script-->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8&appId=1245965302120622";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	
 </html>
