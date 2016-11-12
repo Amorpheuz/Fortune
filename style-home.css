@@ -1,0 +1,42 @@
+.header{
+			height: 550px;
+			padding-top:15%;
+		}
+		.asize{
+			font-size: 500%;
+		}
+		body{
+			background-color: #fff9e6;
+			overflow-x: hidden;
+		}
+		.hshad{
+			opacity: 0.4;
+			color:#000000;
+			text-shadow: 3px 3px #ababab;
+		}
+		.card {
+		/* Add shadows to create the "card" effect */
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+		transition: 0.3s;
+		text-align: Justify;
+		border-radius: 5px; /* 5px rounded corners */
+		}
+
+		/* On mouse-over, add a deeper shadow */
+		.card:hover {
+				box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		}
+
+		.parallax {
+		    /* The image used */
+		    background-image: url('background1.jpg');
+
+		    /* Full height */
+		    height: 100%;
+
+		    /* Create the parallax scrolling effect */
+		    background-attachment: fixed;
+		    background-position: center;
+		    background-repeat: no-repeat;
+		    background-size: cover;
+		}
